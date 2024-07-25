@@ -1,0 +1,90 @@
+.prediction-section {
+    padding: 20px 32px;
+    background: linear-gradient(to right, #ECF2FF, #FBFCFF);
+
+}
+.prediction-title-content {
+    margin: 0 0 88px 0;
+    text-align: center;
+}
+.prediction-content label{
+    margin: 0 0 16px 0;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    letter-spacing: .7px;
+}
+.prediction-content label::before {
+    content: "*";
+    color: red;
+    padding: 0 4px 0 0;
+}
+.prediction-content label :is(input, select) {
+    width: 100%;
+    margin: 8px 0;
+    padding: 0 12px;
+    display: block;
+    height: 40px;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    /* background-color: #c9def4; */
+    outline: transparent;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    letter-spacing: .7px;
+}
+.prediction-container{
+    width: 100%;
+}
+.prediction-image{
+    width: 50%;
+    height: auto;
+}
+.imageAnalysis{
+    margin: 0 0 16px 0;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    letter-spacing: .7px;
+    color: rgb(233, 94, 29);
+}
+.prediction-image-container{
+    margin: 40px 0 40px 0;
+    display: flex;
+    justify-content: center;
+}
+.prediction-btn{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 40px 0;
+}
+
+.prediction-btn button{
+    padding: 10px;
+    background-color: rgb(251, 102, 48);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.prediction-btn button:hover{
+    background-color: orangered;
+}
+.prediction-result-heading {
+    margin: 0 0 16px 0;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    letter-spacing: .7px;
+    color: rgb(249, 95, 24);
+}
+.prediction-ans{
+    padding: 0 0 50px 0;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
